@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 class Forecast extends StatelessWidget {
   final IconData icon;
   final String time;
@@ -17,7 +16,7 @@ class Forecast extends StatelessWidget {
           ),
         ),
         child: Padding(
-          padding: const EdgeInsets.symmetric(vertical: 10),
+          padding: const EdgeInsets.only(top: 11),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
